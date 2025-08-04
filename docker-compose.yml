@@ -11,6 +11,15 @@ services:
       - N8N_BASIC_AUTH_PASSWORD=${N8N_BASIC_AUTH_PASSWORD}
       - WEBHOOK_URL=${WEBHOOK_URL}
       - N8N_ENDPOINT_WEBHOOK=${N8N_ENDPOINT_WEBHOOK}
+
+      #MCP server environment variables
+      - MCP_BRAVE_API_KEY=${MCP_BRAVE_API_KEY}
+      - MCP_OPENAI_API_KEY=${MCP_OPENAI_API_KEY}
+      - MCP_SERPER_API_KEY=${MCP_SERPER_API_KEY}
+      - MCP_WEATHER_API_KEY=${MCP_WEATHER_API_KEY}
+     
+      #Enable community nodes as tools
+      - N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true
     volumes:
       - ./n8n_data:/home/node/.n8n
     extra_hosts:

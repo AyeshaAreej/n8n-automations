@@ -1,0 +1,2 @@
+{"__type":"$$EventMessageAudit","id":"404d0d50-ec61-4717-b8e1-699282e517b4","ts":"2025-08-04T10:19:27.523+00:00","eventName":"n8n.audit.user.login.success","message":"n8n.audit.user.login.success","payload":{"userId":"8f719475-e455-41e2-af6c-29e41158f91f","_email":"ayeshaareej222@gmail.com","_firstName":"Ayesha ","_lastName":"Areej","globalRole":"global:owner","authenticationMethod":"email"}}
+{"__type":"$$EventMessageConfirm","confirm":"404d0d50-ec61-4717-b8e1-699282e517b4","ts":"2025-08-04T10:19:27.524+00:00","source":{"id":"0","name":"eventBus"}}
